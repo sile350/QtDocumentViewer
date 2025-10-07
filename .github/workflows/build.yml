@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v3
     
     - name: Install Qt
-      uses: jurplel/install-qt-action@v3
+      uses: jurplel/install-qt-action@v4
       with:
         version: '6.8.*'
         modules: 'qtpdf qtpdfwidgets qtquick3d'
@@ -33,7 +33,7 @@ jobs:
     - uses: actions/checkout@v3
     
     - name: Install Qt
-      uses: jurplel/install-qt-action@v3
+      uses: jurplel/install-qt-action@v4
       with:
         version: '6.8.*'
         modules: 'qtpdf qtpdfwidgets qtquick3d'
@@ -51,7 +51,7 @@ jobs:
     - uses: actions/checkout@v3
     
     - name: Install Qt
-      uses: jurplel/install-qt-action@v3
+      uses: jurplel/install-qt-action@v4
       with:
         version: '6.8.*'
         modules: 'qtpdf qtpdfwidgets qtquick3d'
