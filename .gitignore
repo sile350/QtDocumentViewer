@@ -1,0 +1,144 @@
+# C++ build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# Qt-specific
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.autosave
+
+# Qt Creator
+*.pro.user*
+*.creator
+*.creator.*
+*.files
+*.includes
+*.config
+*.cflags
+*.cxxflags
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Build directories
+build/
+build-*/
+debug/
+release/
+Debug/
+Release/
+x64/
+x86/
+bin/
+lib/
+libs/
+*.build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Qt generated files
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qm
+*.prl
+
+# Qt cache
+.qtc_clangd/
+.qt/
+
+# Visual Studio
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+.vs/
+
+# QMake
+Makefile
+Makefile.*
+*.pro.user
+*.pro.user.*
+
+# Generated documentation
+html/
+latex/
+*.log
+*.aux
+*.idx
+*.out
+*.toc
+
+# Package managers
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+
+# Test results
+Testing/
+CTestTestfile.cmake
+
+# Qt Installer Framework
+packages/
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
+*~
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Application specific
+documentviewer
+*.log
+settings.ini
+

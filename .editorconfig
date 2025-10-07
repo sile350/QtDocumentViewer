@@ -1,0 +1,62 @@
+# EditorConfig для проекта Document Viewer
+# https://editorconfig.org
+
+root = true
+
+# Настройки по умолчанию для всех файлов
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# C++ файлы
+[*.{cpp,h,hpp,cc,cxx}]
+indent_style = space
+indent_size = 4
+
+# CMake файлы
+[CMakeLists.txt]
+indent_style = space
+indent_size = 4
+
+[*.cmake]
+indent_style = space
+indent_size = 4
+
+# QML файлы
+[*.qml]
+indent_style = space
+indent_size = 4
+
+# JSON файлы
+[*.json]
+indent_style = space
+indent_size = 2
+
+# XML файлы
+[*.{xml,ui}]
+indent_style = space
+indent_size = 2
+
+# YAML файлы
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Markdown файлы
+[*.md]
+trim_trailing_whitespace = false
+indent_size = 2
+
+# Makefiles
+[Makefile]
+indent_style = tab
+
+# Shell скрипты
+[*.sh]
+indent_style = space
+indent_size = 2
+
