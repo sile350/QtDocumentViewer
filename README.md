@@ -275,12 +275,6 @@ SPDX-License-Identifier: LicenseRef-Qt-Commercial OR BSD-3-Clause
 - [Qt Forum](https://forum.qt.io/)
 - [Qt Source Code](https://code.qt.io/)
 
-## 📞 Contact and Support
-
-- **Questions**: Create an [Issue](../../issues)
-- **Discussions**: Use [Discussions](../../discussions)
-- **Email**: [your-email@example.com]
-
 ## 🌟 Implementation Highlights
 
 ### Settings Management
